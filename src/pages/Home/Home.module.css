@@ -1,0 +1,22 @@
+.containerCard{
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    margin-top:6rem;
+}
+
+
+.text{
+    font-size: 22px;
+    font-weight: normal;
+    line-height:1.6;
+    color:#c4c5c5;
+    margin-bottom: 30px;
+}
+.signText{
+    margin-top: 20px;
+
+}
+.invite{
+    color:#014a9c;
+}
