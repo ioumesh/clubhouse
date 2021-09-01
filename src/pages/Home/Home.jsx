@@ -12,7 +12,7 @@ const Home = () => {
     }
     const history = useHistory();
     const handleRegister = () => {
-        history.push('/register')
+        history.push('/authenticate')
     }
     return (
         <div className={styles.containerCard}>
@@ -25,7 +25,7 @@ const Home = () => {
                     While we wrap up the finishing touches , we're adding people gradually to make sure nothing breaks</p>
                 <div>
                     <Button
-                        title={'Get your username'}
+                        title={`Let's Start`}
                         logo={'arrow-forward'}
                         onClick={handleRegister}
                     >
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 <div className={styles.signText}>
                     <span className={styles.invite}>Have an invite text?</span>
-                    <Link style={signinLink} to="/login">sign in </Link>
+                    {/* <Link style={signinLink} to="/login">sign in </Link> */}
                 </div>
             </Card>
 

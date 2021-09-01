@@ -1,0 +1,19 @@
+
+.cardWrapper {
+    composes:cardWrapper from '../../../App.module.css'
+  }
+  
+  .buttonWrapper {
+    composes:buttonWrapper from '../StepPhoneEmail/StepPhoneEmail.module.css'
+  }
+  
+ 
+  .phoneButtonWrapper {
+    composes:phoneButtonWrapper from '../StepPhoneEmail/StepPhoneEmail.module.css'
+
+  }
+  .phoneParagraph {
+    composes:phoneParagraph from '../StepPhoneEmail/StepPhoneEmail.module.css'
+
+  }
+  

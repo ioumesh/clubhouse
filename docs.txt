@@ -1,0 +1,2 @@
+#1 hash map concept for making nexttab
+#2 protected routes concept and rest operator
